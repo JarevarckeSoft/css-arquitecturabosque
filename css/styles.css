@@ -206,8 +206,14 @@ img {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     background-image: url(../img/nosotros.jpg);
+    background-size: 120rem;
     background-repeat: no-repeat;
     background-position: bottom center;
+}
+@media (min-width: 360px) {
+    .nosotros {
+        background-size: auto;
+    }
 }
 @media (min-width: 768px) {
     .nosotros {
