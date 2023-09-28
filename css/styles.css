@@ -206,7 +206,7 @@ img {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     background-image: url(../img/nosotros.jpg);
-    background-size: 120rem;
+    background-size: 150rem;
     background-repeat: no-repeat;
     background-position: bottom center;
 }
