@@ -223,7 +223,7 @@ img {
 }
 .contenido-nosotros {
     background-color: var(--blanco);
-    padding: 0 1rem;
+    padding: 1rem;
 }
 @media (min-width: 360px) {
     .contenido-nosotros {
