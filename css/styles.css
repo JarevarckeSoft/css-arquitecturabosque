@@ -210,7 +210,7 @@ img {
     background-position: center 95%;
     background-size: 90rem;
 }
-@media (min-width: 390px) {
+@media (min-width: 360px) {
     .nosotros {
         background-position: bottom center;
         background-size: auto;
@@ -225,7 +225,7 @@ img {
     background-color: var(--blanco);
     padding: 0 1rem;
 }
-@media (min-width: 390px) {
+@media (min-width: 360px) {
     .contenido-nosotros {
         padding: 3rem 1rem 3.5rem 1rem;
     }
