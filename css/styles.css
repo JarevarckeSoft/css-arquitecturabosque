@@ -206,14 +206,8 @@ img {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     background-image: url(../img/nosotros.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
-}
-@media (min-width: 360px) {
-    .nosotros {
-        background-size: auto;
-    }
 }
 @media (min-width: 768px) {
     .nosotros {
@@ -222,7 +216,7 @@ img {
 }
 .contenido-nosotros {
     background-color: var(--blanco);
-    padding: 3rem 1rem 3.5rem 1rem;
+    /*padding: 3rem 1rem 3.5rem 1rem;*/
 }
 @media (min-width: 768px) {
     .contenido-nosotros {
