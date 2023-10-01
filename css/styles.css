@@ -433,7 +433,17 @@ img {
 .imagenes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 1rem;
+}
+@media (min-width: 320px) {
+    .imagenes {
+        gap: 1.5rem;
+    }
+}
+@media (min-width: 360px) {
+    .imagenes {
+        gap: 2rem;
+    }
 }
 @media (min-width: 768px) {
   .imagenes {
