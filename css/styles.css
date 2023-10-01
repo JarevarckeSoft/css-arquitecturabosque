@@ -500,7 +500,12 @@ img {
 .copyright {
   background-color: var(--negro);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 5rem 0 0 0;
   padding: 1rem;
+}
+@media (min-width: 240px) {
+    .copyright {
+        font-size: 2rem;
+    }
 }
